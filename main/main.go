@@ -1,10 +1,14 @@
 package main
 
-import (
-	"main/secondclass"
-)
+import "main/secondclass"
 
 func main() {
-	secondclass.HelloWorld()
-	secondclass.Variables()
+	//secondclass.HelloWorld()
+
+	//secondclass.Variables()
+
+	secondclass.PrintHelloScope()
+
+	//won't print this cuz camel case makes it private
+	//secondclass.printByeScope()
 }
