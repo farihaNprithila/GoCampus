@@ -6,4 +6,5 @@ import (
 
 func main() {
 	secondclass.HelloWorld()
+	secondclass.Variables()
 }
