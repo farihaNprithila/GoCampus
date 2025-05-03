@@ -1,0 +1,51 @@
+Topics:
+Structure design
+database integration
+request handling
+input validation
+
+Project overview:
+Event management
+purpose
+-user manages their own events
+-admins manage all events and users
+
+Roles
+--Admin
+--User
+
+AUth
+-jwt/session
+
+Features
+-CRUD
+-Public event listing and registration
+_admin panel
+-input validation
+-response formatting
+-pagination
+
+Next steps
+-Project Structure
+-Config Management
+-Framework integration
+-ORM
+-Robust input validation
+
+packages
+-net/http
+-encoding/json
+-database/sql
+
+
+Request routing
+-http.HandleFunc
+-simple pattern matching for paths
+-no built-in routing like frameworks(gorilla,chi,gin)
+
+Homework:
+1. Request validation
+2. Delete api
+3. Implementing pagination in list
+
+
