@@ -7,8 +7,10 @@ func main() {
 
 	//secondclass.Variables()
 
-	secondclass.PrintHelloScope()
+	//secondclass.PrintHelloScope()
 
 	//won't print this cuz camel case makes it private
 	//secondclass.printByeScope()
+
+	secondclass.ConditionalOperators()
 }
