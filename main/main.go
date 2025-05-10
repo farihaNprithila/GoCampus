@@ -1,6 +1,7 @@
 package main
 
 import "main/secondclass"
+import "main/fourthclass"
 
 func main() {
 	//secondclass.HelloWorld()
@@ -13,4 +14,6 @@ func main() {
 	//secondclass.printByeScope()
 
 	secondclass.ConditionalOperators()
+
+	fourthclass.HttpExample()
 }
